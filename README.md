@@ -4,7 +4,7 @@
 
 Researching stocks can be time consuming and not all apps display the financial metrics we are interested in. This dashboard was built to increase productivity around researching and selecting stocks to optimize returns. This app explores the correlation between a company's financial metrics to its anticipated performance. Using machine learning this application solves the multi-classification problem of whether to Buy, Sell, or Hold a stock. Although a company's financials determines its health, stocks are generally priced based on future values and the risks and randomness in a stock's prices can not eliminated. Investment decisions should be made with discretion.
 
-The front-end dashboard was built using Plotly/Dash on Python and has been deployed on Heroku for your viewing at https://ikim91-stock-dashboard.herokuapp.com.
+The front-end dashboard was built using Plotly/Dash on Python and has been deployed on Heroku for your viewing at https://stock-dashboard-ikim91.herokuapp.com.
 
 The dashboard template can be seen in the image below.
 
