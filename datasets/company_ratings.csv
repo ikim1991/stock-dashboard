@@ -1,0 +1,729 @@
+,ticker,ratings
+0,A,Strong Buy
+1,AAL,Moderate Buy
+2,AAON,Strong Sell
+3,AAP,Moderate Buy
+4,AAPL,Moderate Buy
+5,AATDF,Moderate Sell
+6,ABBV,Moderate Buy
+7,ABC,Moderate Buy
+8,ABEV,Hold
+9,ABMD,Moderate Buy
+10,ABT,Strong Buy
+11,ACB,Moderate Buy
+12,ACN,Strong Buy
+13,ADBE,Moderate Buy
+14,ADI,Moderate Buy
+15,ADM,Strong Buy
+16,ADP,Moderate Buy
+17,ADS,Moderate Buy
+18,ADSK,Moderate Buy
+19,AEE,Moderate Buy
+20,AEG,Hold
+21,AEP,Moderate Buy
+22,AES,Moderate Buy
+23,AFL,Hold
+24,AGESY,Moderate Buy
+25,AGN,Moderate Buy
+26,AIG,Moderate Buy
+27,AIV,Moderate Buy
+28,AIZ,Strong Buy
+29,AJG,Moderate Buy
+30,AKAM,Moderate Buy
+31,ALB,Moderate Buy
+32,ALE,Moderate Sell
+33,ALGN,Moderate Buy
+34,ALK,Moderate Buy
+35,ALL,Moderate Buy
+36,ALLE,Moderate Buy
+37,ALO,Moderate Sell
+38,ALXN,Moderate Buy
+39,AMAT,Moderate Buy
+40,AMCR,Hold
+41,AMCX,Moderate Buy
+42,AMD,Moderate Buy
+43,AME,Strong Buy
+44,AMG,Moderate Buy
+45,AMGN,Moderate Buy
+46,AMKR,Hold
+47,AMP,Strong Buy
+48,AMT,Moderate Buy
+49,AMZN,Strong Buy
+50,ANET,Moderate Buy
+51,ANSS,Moderate Buy
+52,ANTM,Strong Buy
+53,AON,Moderate Buy
+54,AOS,Moderate Buy
+55,AOSL,Moderate Buy
+56,APA,Hold
+57,APD,Moderate Buy
+58,APH,Strong Buy
+59,APHA,Moderate Buy
+60,APTV,Moderate Buy
+61,ARCO,Moderate Buy
+62,ARE,Moderate Buy
+63,ARNC,Moderate Buy
+64,ARR,Hold
+65,ATO,Strong Buy
+66,ATVI,Moderate Buy
+67,AUO,Moderate Sell
+68,AVA,Moderate Sell
+69,AVB,Moderate Buy
+70,AVGO,Strong Buy
+71,AVH,Hold
+72,AVY,Moderate Buy
+73,AWK,Moderate Buy
+74,AWR,Moderate Sell
+75,AXP,Moderate Buy
+76,AZO,Moderate Buy
+77,BA,Moderate Buy
+78,BAC,Moderate Buy
+79,BAMXF,Moderate Sell
+80,BAX,Moderate Buy
+81,BBT,Moderate Buy
+82,BBY,Moderate Buy
+83,BCE,Moderate Buy
+84,BCH,Hold
+85,BCRH,No Ratings
+86,BDX,Strong Buy
+87,BEN,Moderate Sell
+88,BF.B,Hold
+89,BHGE,Strong Buy
+90,BIIB,Hold
+91,BK,Hold
+92,BKCC,Moderate Sell
+93,BKE,Strong Sell
+94,BKEAY,Moderate Sell
+95,BKNG,Moderate Buy
+96,BLK,Strong Buy
+97,BLL,Moderate Buy
+98,BLX,Strong Sell
+99,BMO,Hold
+100,BMY,Moderate Buy
+101,BNS,Moderate Buy
+102,BP,Moderate Buy
+103,BR,Hold
+104,BRK-A,Strong Buy
+105,BRK.B,Moderate Buy
+106,BRRAY,Moderate Sell
+107,BSX,Strong Buy
+108,BTE,Strong Buy
+109,BTLCY,Moderate Sell
+110,BWA,Moderate Buy
+111,BXEFF,No Ratings
+112,BXP,Moderate Buy
+113,BYPLF,Hold
+114,C,Strong Buy
+115,CACC,Hold
+116,CAG,Strong Buy
+117,CAH,Hold
+118,CAJ,Moderate Sell
+119,CALM,Hold
+120,CAT,Hold
+121,CB,Moderate Buy
+122,CBL,Moderate Sell
+123,CBOE,Moderate Buy
+124,CBRE,Moderate Buy
+125,CBS,Moderate Buy
+126,CCI,Moderate Buy
+127,CCL,Moderate Buy
+128,CCLAY,Moderate Sell
+129,CCM,Moderate Sell
+130,CCU,Moderate Sell
+131,CDNS,Moderate Buy
+132,CE,Moderate Buy
+133,CELG,Hold
+134,CERN,Moderate Buy
+135,CF,Moderate Buy
+136,CFG,Moderate Buy
+137,CGC,Moderate Buy
+138,CHD,Moderate Buy
+139,CHRW,Hold
+140,CHT,Hold
+141,CHTR,Moderate Buy
+142,CI,Strong Buy
+143,CICOY,Strong Buy
+144,CINF,Hold
+145,CIT,Moderate Buy
+146,CL,Moderate Buy
+147,CLNE,Strong Sell
+148,CLX,Hold
+149,CM,Hold
+150,CMA,Hold
+151,CMCM,Hold
+152,CMCSA,Moderate Buy
+153,CME,Moderate Buy
+154,CMG,Hold
+155,CMI,Hold
+156,CMO,Hold
+157,CMS,Moderate Buy
+158,CNC,Strong Buy
+159,CNP,Moderate Buy
+160,CNQ,Moderate Buy
+161,CNS,Moderate Sell
+162,COF,Moderate Buy
+163,COG,Moderate Buy
+164,COO,Strong Buy
+165,COP,Strong Buy
+166,COST,Moderate Buy
+167,COTY,Hold
+168,CPB,Hold
+169,CPRI,Moderate Buy
+170,CPRT,Hold
+171,CPSI,Hold
+172,CRM,Strong Buy
+173,CRON,Hold
+174,CSCO,Moderate Buy
+175,CSIOY,Strong Sell
+176,CSTE,Hold
+177,CSX,Moderate Buy
+178,CTAS,Moderate Buy
+179,CTL,Hold
+180,CTSH,Hold
+181,CTST,Strong Buy
+182,CTVA,Moderate Buy
+183,CTWS,Hold
+184,CTXS,Moderate Buy
+185,CVE,Moderate Buy
+186,CVS,Moderate Buy
+187,CVX,Strong Buy
+188,CXO,Strong Buy
+189,CYH,Moderate Sell
+190,CYOU,Moderate Sell
+191,D,Moderate Buy
+192,DAL,Moderate Buy
+193,DB,Hold
+194,DCOM,Moderate Sell
+195,DD,Moderate Buy
+196,DDS,Moderate Sell
+197,DE,Moderate Buy
+198,DF,Hold
+199,DFIN,Hold
+200,DFS,Moderate Buy
+201,DG,Strong Buy
+202,DGX,Moderate Buy
+203,DHI,Moderate Buy
+204,DHR,Strong Buy
+205,DIIBF,No Ratings
+206,DIS,Strong Buy
+207,DISCA,Strong Buy
+208,DISCK,Hold
+209,DISH,Hold
+210,DLR,Moderate Buy
+211,DLTR,Moderate Buy
+212,DO,Hold
+213,DOV,Moderate Buy
+214,DOW,Moderate Buy
+215,DRE,Strong Buy
+216,DRI,Moderate Buy
+217,DTE,Moderate Buy
+218,DTEGY,Moderate Sell
+219,DUK,Hold
+220,DVA,Moderate Buy
+221,DVN,Moderate Buy
+222,DXC,Moderate Buy
+223,EA,Moderate Buy
+224,EBAY,Moderate Buy
+225,EC,Hold
+226,ECA,Moderate Buy
+227,ECL,Moderate Buy
+228,ED,Hold
+229,EDN,Hold
+230,EFX,Moderate Buy
+231,EIGI,Hold
+232,EIX,Moderate Buy
+233,EL,Moderate Buy
+234,ELP,Moderate Buy
+235,EMN,Moderate Buy
+236,EMR,Moderate Buy
+237,ENB,Moderate Buy
+238,ENQUF,Hold
+239,ENT,Hold
+240,EOG,Strong Buy
+241,EQIX,Strong Buy
+242,EQR,Hold
+243,ES,Moderate Buy
+244,ESALY,Moderate Sell
+245,ESS,Moderate Buy
+246,ETFC,Moderate Buy
+247,ETN,Moderate Buy
+248,ETR,Strong Buy
+249,EVRG,Moderate Buy
+250,EVRZF,Strong Sell
+251,EW,Moderate Buy
+252,EXC,Moderate Buy
+253,EXPD,Hold
+254,EXPE,Moderate Buy
+255,EXR,Hold
+256,F,Moderate Buy
+257,FANG,Strong Buy
+258,FANUY,Moderate Sell
+259,FAST,Moderate Buy
+260,FB,Strong Buy
+261,FBHS,Moderate Buy
+262,FCX,Moderate Buy
+263,FDX,Moderate Buy
+264,FE,Moderate Buy
+265,FFIV,Moderate Buy
+266,FGP,Strong Sell
+267,FIS,Strong Buy
+268,FISV,Moderate Buy
+269,FITB,Moderate Buy
+270,FIZZ,Hold
+271,FLIR,Strong Buy
+272,FLS,Moderate Buy
+273,FLT,Moderate Buy
+274,FMC,Strong Buy
+275,FOX,Strong Buy
+276,FOXA,Moderate Buy
+277,FRC,Moderate Buy
+278,FRT,Moderate Buy
+279,FTI,Strong Buy
+280,FTNT,Moderate Buy
+281,FTV,Moderate Buy
+282,GD,Moderate Buy
+283,GE,Moderate Buy
+284,GEF,Hold
+285,GFI,Moderate Sell
+286,GGAL,Moderate Sell
+287,GHL,Hold
+288,GILD,Strong Buy
+289,GIS,Moderate Buy
+290,GL,Moderate Buy
+291,GLAD,Hold
+292,GLAPY,Moderate Sell
+293,GLP,Moderate Sell
+294,GLW,Moderate Buy
+295,GM,Moderate Buy
+296,GOOG,Strong Buy
+297,GOOGL,Strong Buy
+298,GPC,Hold
+299,GPN,Moderate Buy
+300,GPS,Hold
+301,GRMN,Hold
+302,GS,Moderate Buy
+303,GSH,Moderate Sell
+304,GTX,Moderate Sell
+305,GWW,Hold
+306,HAL,Strong Buy
+307,HAS,Moderate Buy
+308,HBAN,Hold
+309,HBI,Moderate Buy
+310,HCA,Strong Buy
+311,HCP,Moderate Buy
+312,HD,Moderate Buy
+313,HE,Moderate Sell
+314,HES,Moderate Buy
+315,HFC,Hold
+316,HI,Strong Buy
+317,HIG,Strong Buy
+318,HII,Hold
+319,HLT,Moderate Buy
+320,HMSNF,Hold
+321,HOG,Hold
+322,HOLX,Moderate Buy
+323,HON,Strong Buy
+324,HP,Moderate Buy
+325,HPE,Hold
+326,HPQ,Hold
+327,HRB,Moderate Buy
+328,HRL,Hold
+329,HRZN,Moderate Buy
+330,HSBC,Moderate Sell
+331,HSIC,Hold
+332,HSNGY,Moderate Buy
+333,HST,Moderate Buy
+334,HSY,Hold
+335,HUM,Strong Buy
+336,IBM,Moderate Buy
+337,ICE,Moderate Buy
+338,IDA,Moderate Sell
+339,IDXX,Strong Buy
+340,IEP,Strong Sell
+341,IEX,Moderate Buy
+342,IFF,Moderate Buy
+343,ILMN,Moderate Buy
+344,IMO,Hold
+345,INCY,Moderate Buy
+346,INFO,Moderate Buy
+347,INTC,Hold
+348,INTU,Moderate Buy
+349,INVA,Strong Sell
+350,IP,Hold
+351,IPG,Moderate Buy
+352,IPGP,Moderate Buy
+353,IQV,Strong Buy
+354,IR,Moderate Buy
+355,IRM,Moderate Buy
+356,IRS,Strong Sell
+357,ISEE,Hold
+358,ISRG,Strong Buy
+359,IT,Moderate Buy
+360,ITW,Hold
+361,IVZ,Hold
+362,JBHT,Hold
+363,JCI,Moderate Buy
+364,JCP,Moderate Sell
+365,JDWPY,Strong Sell
+366,JEC,Strong Buy
+367,JEF,Moderate Buy
+368,JFEEF,Moderate Sell
+369,JKHY,Hold
+370,JNJ,Moderate Buy
+371,JNPR,Hold
+372,JPM,Moderate Buy
+373,JWN,Hold
+374,K,Moderate Buy
+375,KB,Hold
+376,KEY,Moderate Buy
+377,KEYS,Strong Buy
+378,KGFHY,Moderate Sell
+379,KHC,Hold
+380,KIM,Hold
+381,KKPNF,Moderate Buy
+382,KLAC,Strong Buy
+383,KMB,Hold
+384,KMI,Moderate Buy
+385,KMX,Moderate Buy
+386,KO,Moderate Buy
+387,KR,Moderate Buy
+388,KSS,Moderate Buy
+389,KSU,Moderate Buy
+390,KUBTY,Moderate Buy
+391,KYOCY,Moderate Sell
+392,L,Hold
+393,LB,Moderate Buy
+394,LDOS,Moderate Buy
+395,LEG,Moderate Buy
+396,LEN,Strong Buy
+397,LGRVF,Moderate Sell
+398,LH,Moderate Buy
+399,LHX,Strong Buy
+400,LIN,Moderate Buy
+401,LKQ,Strong Buy
+402,LLY,Moderate Buy
+403,LMT,Strong Buy
+404,LN,Moderate Buy
+405,LNC,Moderate Buy
+406,LNT,Moderate Buy
+407,LOW,Moderate Buy
+408,LPL,Hold
+409,LRCX,Moderate Buy
+410,LSGOF,Moderate Sell
+411,LTRPA,Hold
+412,LUV,Moderate Buy
+413,LW,Moderate Buy
+414,LYB,Moderate Buy
+415,M,Moderate Sell
+416,MA,Strong Buy
+417,MAA,Moderate Buy
+418,MAC,Hold
+419,MAR,Hold
+420,MAS,Moderate Buy
+421,MAXR,Hold
+422,MBNKF,Moderate Sell
+423,MCD,Strong Buy
+424,MCHP,Moderate Buy
+425,MCK,Moderate Buy
+426,MCO,Moderate Buy
+427,MCY,Hold
+428,MDLZ,Strong Buy
+429,MDOMF,Moderate Sell
+430,MDT,Moderate Buy
+431,MET,Moderate Buy
+432,MGI,Moderate Sell
+433,MGM,Moderate Buy
+434,MHK,Moderate Buy
+435,MHVYF,Moderate Sell
+436,MKC,Hold
+437,MKTX,Hold
+438,MLM,Strong Buy
+439,MMC,Hold
+440,MMM,Hold
+441,MN,Strong Sell
+442,MNST,Moderate Buy
+443,MO,Moderate Buy
+444,MOS,Moderate Buy
+445,MPC,Strong Buy
+446,MRK,Strong Buy
+447,MRO,Moderate Buy
+448,MS,Moderate Buy
+449,MSC,Strong Sell
+450,MSCI,Moderate Buy
+451,MSFT,Strong Buy
+452,MSI,Moderate Buy
+453,MTB,Hold
+454,MTD,Hold
+455,MTL,Moderate Buy
+456,MU,Moderate Buy
+457,MURGY,Hold
+458,MXIM,Hold
+459,MYL,Moderate Buy
+460,NBL,Strong Buy
+461,NCLH,Strong Buy
+462,NDAQ,Moderate Buy
+463,NEE,Strong Buy
+464,NEM,Moderate Buy
+465,NEU,Hold
+466,NFLX,Strong Buy
+467,NI,Moderate Buy
+468,NILSY,Strong Sell
+469,NINOY,Hold
+470,NKE,Moderate Buy
+471,NKTR,Moderate Buy
+472,NLNK,Hold
+473,NLSN,Strong Buy
+474,NM,No Ratings
+475,NOC,Strong Buy
+476,NOV,Moderate Buy
+477,NPCPF,Moderate Sell
+478,NRG,Moderate Buy
+479,NSC,Moderate Buy
+480,NTAP,Hold
+481,NTRS,Hold
+482,NUE,Moderate Buy
+483,NVDA,Moderate Buy
+484,NWBI,Hold
+485,NWE,Moderate Sell
+486,NWL,Hold
+487,NWS,Moderate Sell
+488,NWSA,Hold
+489,O,Moderate Buy
+490,OBE,Hold
+491,ODP,Moderate Sell
+492,OGE,Hold
+493,OGS,Moderate Sell
+494,OKE,Moderate Buy
+495,OMC,Hold
+496,OMI,Hold
+497,ORCL,Hold
+498,ORLY,Moderate Buy
+499,OTTR,Hold
+500,OXY,Hold
+501,PAHC,Moderate Sell
+502,PAYX,Hold
+503,PBCT,Hold
+504,PCAR,Hold
+505,PEG,Moderate Buy
+506,PEP,Moderate Buy
+507,PETS,Hold
+508,PFE,Moderate Buy
+509,PFG,Hold
+510,PG,Moderate Buy
+511,PGR,Moderate Buy
+512,PH,Hold
+513,PHI,Moderate Sell
+514,PHM,Hold
+515,PIR,Strong Sell
+516,PKG,Hold
+517,PKI,Hold
+518,PLD,Strong Buy
+519,PM,Strong Buy
+520,PMTS,Hold
+521,PNC,Moderate Buy
+522,PNM,Hold
+523,PNR,Moderate Buy
+524,PNW,Hold
+525,POR,Hold
+526,PPG,Moderate Buy
+527,PPL,Moderate Buy
+528,PRGO,Hold
+529,PRU,Moderate Buy
+530,PSA,Hold
+531,PSEC,Moderate Sell
+532,PSX,Moderate Buy
+533,PTR,Strong Buy
+534,PUBGY,Moderate Sell
+535,PVH,Strong Buy
+536,PWR,Strong Buy
+537,PXD,Strong Buy
+538,PYPL,Strong Buy
+539,QCOM,Moderate Buy
+540,QIWI,Moderate Buy
+541,QRVO,Moderate Buy
+542,RAD,Moderate Sell
+543,RANJY,Hold
+544,RBGLY,Hold
+545,RCI,Moderate Buy
+546,RCL,Moderate Buy
+547,RDCM,Strong Buy
+548,RDY,Moderate Buy
+549,RE,Hold
+550,RECN,Moderate Sell
+551,REG,Strong Buy
+552,REGN,Moderate Buy
+553,RF,Moderate Buy
+554,RHI,Hold
+555,RIBT,No Ratings
+556,RJF,Strong Buy
+557,RL,Moderate Buy
+558,RLGY,Moderate Sell
+559,RMD,Moderate Buy
+560,RNDB,Strong Sell
+561,RNSHF,Strong Sell
+562,ROK,Hold
+563,ROL,Hold
+564,ROP,Moderate Buy
+565,ROST,Moderate Buy
+566,RSG,Hold
+567,RTN,Moderate Buy
+568,RY,Strong Buy
+569,RYB,Hold
+570,RYCEY,Hold
+571,SAGKF,Moderate Sell
+572,SAPMF,Moderate Buy
+573,SBAC,Moderate Buy
+574,SBH,Hold
+575,SBS,Moderate Sell
+576,SBUX,Moderate Buy
+577,SCBFF,Moderate Buy
+578,SCGLY,Hold
+579,SCHN,Hold
+580,SCHW,Moderate Buy
+581,SCMWY,Moderate Sell
+582,SEE,Moderate Buy
+583,SFUN,Moderate Sell
+584,SHI,Moderate Buy
+585,SHLO,Moderate Buy
+586,SHW,Moderate Buy
+587,SID,Hold
+588,SIVB,Moderate Buy
+589,SJM,Hold
+590,SJR,Moderate Buy
+591,SKFRY,Moderate Sell
+592,SLB,Moderate Buy
+593,SLG,Hold
+594,SMGZY,Hold
+595,SNA,Moderate Buy
+596,SNH,Hold
+597,SNPS,Strong Buy
+598,SNPTF,Strong Buy
+599,SO,Hold
+600,SOCLF,Moderate Sell
+601,SOGO,Moderate Sell
+602,SPG,Moderate Buy
+603,SPGI,Moderate Buy
+604,SPKKY,Hold
+605,SRE,Hold
+606,SRLP,Moderate Sell
+607,SSTK,Hold
+608,SSYS,Hold
+609,STI,Moderate Buy
+610,STT,Moderate Buy
+611,STX,Hold
+612,STZ,Moderate Buy
+613,SU,Moderate Buy
+614,SVCBY,Hold
+615,SWK,Strong Buy
+616,SWKS,Moderate Buy
+617,SYF,Moderate Buy
+618,SYK,Moderate Buy
+619,SYMC,Hold
+620,SYY,Moderate Buy
+621,T,Moderate Buy
+622,TAP,Moderate Buy
+623,TBAKF,Hold
+624,TBNK,Hold
+625,TCS,Strong Sell
+626,TD,Moderate Buy
+627,TDG,Moderate Buy
+628,TECD,Hold
+629,TEDU,Moderate Sell
+630,TEL,Moderate Buy
+631,TFX,Strong Buy
+632,TGH,Hold
+633,TGS,Strong Sell
+634,TGT,Moderate Buy
+635,TIF,Moderate Buy
+636,TINLY,Moderate Sell
+637,TJX,Strong Buy
+638,TLRY,Hold
+639,TMNSF,Moderate Sell
+640,TMO,Strong Buy
+641,TMUS,Moderate Buy
+642,TOO,No Ratings
+643,TOT,Moderate Buy
+644,TPR,Moderate Buy
+645,TRIP,Hold
+646,TRMK,Moderate Sell
+647,TROW,Moderate Buy
+648,TRV,Hold
+649,TSCO,Moderate Buy
+650,TSLA,Hold
+651,TSN,Moderate Buy
+652,TSS,Moderate Buy
+653,TTWO,Strong Buy
+654,TU,Moderate Buy
+655,TUP,Hold
+656,TVFCF,Strong Sell
+657,TWTR,Moderate Buy
+658,TXN,Moderate Buy
+659,TXT,Strong Buy
+660,UA,Hold
+661,UAA,Hold
+662,UAL,Moderate Buy
+663,UDR,Moderate Buy
+664,UHS,Moderate Buy
+665,ULTA,Moderate Buy
+666,UNH,Strong Buy
+667,UNIT,Moderate Sell
+668,UNM,Hold
+669,UNP,Moderate Buy
+670,UPS,Moderate Buy
+671,URI,Moderate Buy
+672,USB,Hold
+673,UTI,No Ratings
+674,UTL,Hold
+675,UTX,Strong Buy
+676,V,Strong Buy
+677,VAR,Moderate Buy
+678,VEDL,Strong Buy
+679,VFC,Moderate Buy
+680,VIAB,Moderate Buy
+681,VIOT,Moderate Buy
+682,VIVO,Hold
+683,VLEEY,Moderate Sell
+684,VLO,Strong Buy
+685,VMC,Moderate Buy
+686,VNO,Moderate Buy
+687,VRSK,Moderate Buy
+688,VRSN,Moderate Buy
+689,VRTX,Moderate Buy
+690,VSI,Moderate Sell
+691,VTR,Hold
+692,VZ,Moderate Buy
+693,WAB,Moderate Buy
+694,WAT,Hold
+695,WBA,Hold
+696,WCG,Moderate Buy
+697,WDC,Moderate Buy
+698,WEC,Moderate Buy
+699,WELL,Moderate Buy
+700,WFC,Hold
+701,WHR,Hold
+702,WINMQ,Strong Sell
+703,WLTW,Moderate Buy
+704,WM,Moderate Buy
+705,WMB,Moderate Buy
+706,WMT,Moderate Buy
+707,WOPEY,Strong Sell
+708,WPG,Strong Sell
+709,WRK,Hold
+710,WRLD,Strong Sell
+711,WTKWY,Hold
+712,WU,Hold
+713,WY,Strong Buy
+714,WYNN,Moderate Buy
+715,XEC,Moderate Buy
+716,XEL,Moderate Buy
+717,XLNX,Moderate Buy
+718,XOM,Hold
+719,XRAY,Moderate Buy
+720,XRF,No Ratings
+721,XRX,Hold
+722,XYL,Moderate Buy
+723,YUM,Moderate Buy
+724,Z,Hold
+725,ZBH,Moderate Buy
+726,ZION,Moderate Buy
+727,ZTS,Moderate Buy
