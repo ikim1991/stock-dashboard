@@ -1,0 +1,8 @@
+venv
+*.pyc
+.DS_Store
+.env
+*.ipynb
+*.pkl
+*.png
+*.csv
