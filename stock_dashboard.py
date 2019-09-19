@@ -33,8 +33,28 @@ def load_data():
 
     return df
 
+def load_ratings():
+    conn = psycopg2.connect(
+        database = 'cuzegotk',
+        user = 'cuzegotk',
+        password = 'NekW2BqJ8hW1wO3hCdpuEESPiP-y131V',
+        host = 'raja.db.elephantsql.com'
+    )
+    cur = conn.cursor()
+    cur.execute('SELECT * FROM analystratings')
+    data = cur.fetchall()
+    cur.close()
+    conn.close()
+
+    columns = ['ticker', 'buy', 'overweight', 'hold', 'underweight', 'sell', 'average']
+    df = pd.DataFrame(data, columns = columns)
+
+    return df
+
+
 ## Loading data from database
 df = load_data()
+df1 = load_ratings()
 
 ## Load Drop Down Bar
 def load_dropdown():
@@ -94,63 +114,90 @@ app.layout = html.Div([
             'color': '#ffffff',
         }
     ),
-    dcc.RadioItems(
-        id='timeline',
-        options=[
-            {'label': '5D', 'value': 5},
-            {'label': '1M', 'value': 23},
-            {'label': '3M', 'value': 69},
-            {'label': '6M', 'value': 138},
-            {'label': '1Y', 'value': 252},
-            {'label': '2Y', 'value': 504}
-        ],
-        value=5,
-        style={
-            'display': 'inline-block',
-            'margin-left': '0.5em',
-            'font-family': 'Courier New, Times, Helvetica',
-            'color': '#ffffff',
-        }
-    ),
     html.Div([
-        dcc.Graph(
-            id='figure',
-            figure={
-                'data':[],
-                'layout':go.Layout(
-                    plot_bgcolor= '#191919',
-                    paper_bgcolor= '#191919',
-                    font= {
-                        'color': '#ffffff'
-                    }
-                    )
-            },
-            style={
-                'width':'47.5%',
-                'margin-left': '0.5%',
-                'float': 'left',
-                'height': 'auto',
-            }
-        ),
         html.Div([
-            html.H3(
-                id='profile',
-                children='Stock Profile',
+            dcc.RadioItems(
+                id='timeline',
+                options=[
+                    {'label': '5D', 'value': 5},
+                    {'label': '1M', 'value': 23},
+                    {'label': '3M', 'value': 69},
+                    {'label': '6M', 'value': 138},
+                    {'label': '1Y', 'value': 252},
+                    {'label': '2Y', 'value': 504}
+                ],
+                value=5,
                 style={
-                    'width': '100%',
-                    'margin-top': '0',
-                    'margin-left': '0.5%',
+                    'display': 'inline-block',
+                    'margin-left': '1em',
                     'font-family': 'Courier New, Times, Helvetica',
                     'color': '#ffffff',
-                    }
+                }
             ),
-            html.Hr(),
+            dcc.Graph(
+                id='figure',
+                figure={
+                    'data':[],
+                    'layout':go.Layout(
+                        plot_bgcolor= '#191919',
+                        paper_bgcolor= '#191919',
+                        font= {
+                            'color': '#ffffff'
+                        }
+                        )
+                },
+                style={
+                    'width':'100%'
+                }
+            ),
             html.Div([
+                dcc.Graph(
+                    id='pie-chart',
+                    figure={
+                        'data':[],
+                        'layout':go.Layout(
+                            plot_bgcolor= '#191919',
+                            paper_bgcolor= '#191919',
+                            font= {
+                                'color': '#ffffff'
+                            }
+                            )
+                    },
+                    style={
+                        'width':'67%',
+                        'float':'left'
+                    }
+                ),
+                html.Div([
                     html.P(
-                        children='Predicted Rating:',
+                        children='Analyst Rating',
                         style={
                             'font-size': '1.25em',
                             'font-family': 'Courier New, Times, Helvetica',
+                            'text-decoration': 'underline',
+                            'color': '#ffffff',
+                            'margin-top': '0.5em',
+                            'margin-bottom': '0.5em'
+                        }
+                    ),
+                    html.P(
+                        id='analyst-rating',
+                        children='N/A',
+                        style={
+                            'font-size': '1.25em',
+                            'font-family': 'Courier New, Times, Helvetica',
+                            'color': '#ffffff',
+                            'margin-left': '1em',
+                            'margin-top': '0',
+                            'margin-bottom': '0'
+                        }
+                    ),
+                    html.P(
+                        children='Predicted Rating',
+                        style={
+                            'font-size': '1.25em',
+                            'font-family': 'Courier New, Times, Helvetica',
+                            'text-decoration': 'underline',
                             'color': '#ffffff',
                             'margin-top': '0.5em',
                             'margin-bottom': '0.5em'
@@ -168,7 +215,39 @@ app.layout = html.Div([
                             'margin-bottom': '0'
                         }
                     ),
-                    html.Hr(),
+                ],
+                style={
+                    'width':'33%',
+                    'float':'right',
+                    'margin-top':'3em'
+                }
+                )
+            ],
+            style={
+                'width':'100%'
+            }
+            ),
+    ],
+    style={
+        'width': '50%',
+        'float': 'left'
+    }
+    ),
+    html.Div([
+        html.Div([
+            html.H3(
+                id='profile',
+                children='Stock Profile',
+                style={
+                    'width': '100%',
+                    'margin-top': '0',
+                    'margin-left': '0.5%',
+                    'font-family': 'Courier New, Times, Helvetica',
+                    'color': '#ffffff',
+                    }
+            ),
+            html.Hr(),
+            html.Div([
                     html.P(
                         children='Last Trade Price:',
                         style={
@@ -387,29 +466,6 @@ app.layout = html.Div([
             ),
             html.Div([
                     html.P(
-                        children='Analyst Rating:',
-                        style={
-                            'font-size': '1.25em',
-                            'font-family': 'Courier New, Times, Helvetica',
-                            'color': '#ffffff',
-                            'margin-top': '0.5em',
-                            'margin-bottom': '0.5em'
-                        }
-                    ),
-                    html.P(
-                        id='analyst-rating',
-                        children='N/A',
-                        style={
-                            'font-size': '1.25em',
-                            'font-family': 'Courier New, Times, Helvetica',
-                            'color': '#ffffff',
-                            'margin-left': '1em',
-                            'margin-top': '0',
-                            'margin-bottom': '0'
-                        }
-                    ),
-                    html.Hr(),
-                    html.P(
                         children='Shares Outstanding:',
                         style={
                             'font-size': '1.25em',
@@ -627,11 +683,16 @@ app.layout = html.Div([
             ),
             ],
             style={
-                'width':'51.5%',
-                'float': 'right'
+                'width':'50%',
+                'float':'right'
             }
         )
-        ],
+    ],
+    style={
+        'width': '100%'
+    }
+    ),
+    ],
         style={
             'width':'100%',
         }
@@ -667,7 +728,16 @@ def update_output(ticker, days):
                     data=[go.Scatter(
                         x=[data.index[i].strftime('%Y-%m-%d') for i in range(len(data)-1,len(data)-days-1,-1)],
                         y=[data['Adj Close'][i] for i in range(len(data)-1,len(data)-days-1,-1)],
-                        mode='lines+markers'
+                        mode='lines+markers',
+                        marker=dict(size=4),
+                        name='Close'
+                    ),
+                    go.Scatter(
+                        x=[data.index[i].strftime('%Y-%m-%d') for i in range(len(data)-1,len(data)-days-1,-1)],
+                        y=[data['Open'][i] for i in range(len(data)-1,len(data)-days-1,-1)],
+                        mode='lines+markers',
+                        marker=dict(size=4),
+                        name='Open'
                     )],
         layout=go.Layout(
             title='{} Price Chart'.format(ticker),
@@ -676,6 +746,7 @@ def update_output(ticker, days):
             hovermode='closest',
             plot_bgcolor= '#191919',
             paper_bgcolor= '#191919',
+            legend=dict(x=-0.1),
             font= {
                 'color': '#ffffff'
             }
@@ -683,6 +754,66 @@ def update_output(ticker, days):
     )
 
     return new_figure
+
+
+@app.callback(Output('pie-chart', 'figure'), [Input('stock-search-bar', 'value')])
+def update_output(ticker):
+
+    data = [int(i) for i in df1[df1['ticker'] == ticker].values[0][1:-1]]
+    columns = [i.upper() for i in df1[df1['ticker'] == ticker].columns[1:-1]]
+
+    if sum(data) > 0:
+        labels=[]
+        values=[]
+        for i,v in enumerate(data):
+            if v > 0:
+                labels.append(columns[i])
+                values.append(v)
+
+
+        new_figure = go.Figure(
+                        data=[go.Pie(
+                            labels=labels,
+                            values=values,
+                            hoverinfo='label+value',
+                            textinfo='label'
+                        )],
+            layout=go.Layout(
+                title='{} Analyst Ratings'.format(ticker),
+                plot_bgcolor= '#191919',
+                paper_bgcolor= '#191919',
+                legend=dict(x=-0.8),
+                margin=dict(l=300),
+                font= {
+                    'color': '#ffffff'
+                }
+                )
+        )
+
+        return new_figure
+    else:
+        new_figure = go.Figure(
+                        data=[go.Pie(
+                            labels=['No Ratings'],
+                            values=[1],
+                            hoverinfo='label+value',
+                            textinfo='label'
+                        )],
+            layout=go.Layout(
+                title='{} Analyst Ratings'.format(ticker),
+                plot_bgcolor= '#191919',
+                paper_bgcolor= '#191919',
+                legend=dict(x=-0.8),
+                margin=dict(l=300),
+                font= {
+                    'color': '#ffffff'
+                }
+                )
+        )
+
+        return new_figure
+
+
 
 ## Update rating predicted by our machine learning model for the stock
 @app.callback(Output('predicted-rating', 'children'), [Input('stock-search-bar', 'value')])
@@ -707,10 +838,19 @@ def update_output(value):
 
     else:
         try:
-            return df[df['ticker'] == value]['rating'].values[0]
+            rating = df1[df1['ticker'] == value].values[0][-1]
+
+            if rating.lower() == 'hold':
+                return 'Hold'
+            elif rating.lower() == 'buy' or rating.lower() == 'overweight':
+                return 'Buy'
+            elif rating.lower() == 'sell' or rating.lower() == 'underweight':
+                return 'Sell'
+            else:
+                return 'No Ratings'
 
         except:
-            return 'N/A'
+            return 'No Ratings'
 
 ## Update the number of shares outstanding for the stock
 @app.callback(Output('shares-outstanding', 'children'), [Input('stock-search-bar', 'value')])
